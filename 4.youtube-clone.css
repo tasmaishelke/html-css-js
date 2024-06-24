@@ -1,0 +1,67 @@
+.search-bar
+{
+    display: block;
+    margin-bottom: 20px;
+}
+
+.thumbnails
+{
+    margin-bottom: 15px;
+}
+
+.thumbnail-1
+{
+    width: 400px;
+}
+
+p
+{
+    font-family: arial;
+    margin: 0px;
+}
+
+.pp
+{
+    display: inline-block;
+    width: 60px;
+    vertical-align: top;
+}
+.logo
+{
+    border-radius: 50px;
+    width: 60px;   
+    
+}
+.video-details
+{
+    display: inline-block;
+    width: 300px;
+    margin-top: 0px;    
+}
+.video-title
+{
+    font-size: 20px;
+    font-weight: 500px;
+    margin-bottom: 10px;
+}
+
+.video-author
+{
+    font-size: 14px;
+    color: gray;   
+    font-weight: bolder; 
+}
+.video-stats
+{
+    font-size: 14px;
+    color: gray;
+    font-weight: bolder;
+}
+
+.containers
+{
+    display: inline-block;
+    width: 400px;
+    margin: 0px 20px 0px 0px;
+}
+

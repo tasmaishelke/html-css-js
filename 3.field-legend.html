@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="./3.field-legend.css">
+        
+        <script type="application/javascript">
+            const printDetails = () =>
+                {
+                    var firstName = document.getElementById("fname")
+                    var lastName = document.getElementById("lname")
+                    //var email = document.getElementById("email")
+                    //var phone = document.getElementById("phone")
+                    
+                    if(firstName.value == "")
+                    {
+                        alert("Please enter First Name");
+                        firstName.focus();
+                        return false
+                    }
+
+                    if(lastName.value == "")
+                    {
+                        alert("Please enter Last Name");
+                        lastName.focus();
+                        return false
+                    }
+
+                    else
+                    {
+                        return
+                    }
+                }        
+        </script>
+
+        <title>Field & legend</title>
+    </head>
+    <body>
+        <h1> The Fieldset Element</h1>
+
+        <form id="mainForm" onsubmit="return printDetails()">
+            <fieldset name = "personal_details">
+                <legend> Personal Details</legend>
+                <label class="fname" for="fname"> First Name </label>
+                <input type="text" id="fname" name = "fname"> <br>
+            
+                <label class="lname" for="lname"> Last Name </label>
+                <input type="text" id="lname" name = "lname"> <br>
+    <!--
+                <label for="email"> Email </label>
+                <input type="email" id="email" name="email" placeholder="someone@gmail.com"> <br>
+
+                <label for="phone"> Phone </label>
+                <input type="tel" id="phone" name="phone"> <br>
+
+                <label for="bday"> Birthday </label>
+                <input type="date" id="bday" name="bday"> <br>
+    -->
+                <button class="first-button" type="submit"> Submit </button>
+                <button class="second-button" type="submit"> Submit</button>
+                <button class="third-button" type="submit"> Submit </button>
+
+    <!--            <input type="submit" value="Submit"> 
+    -->
+            </fieldset> <br>        
+        </form>
+
+        <p class="text-title">
+            Talking tech with Tasz 
+        </p>
+
+        <p class="text-description">
+            tasz is talented young man &#183 who is colaborating with elon musk
+        </p>
+
+        <p class="text-route">
+            Click here to know more. <a href="https://github.com/" class="click"> Click &#8594 </a> 
+        </p>
+
+    
+    </body>
+</html>
